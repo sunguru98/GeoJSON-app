@@ -1,0 +1,28 @@
+{
+  "name": "store-locator",
+  "version": "1.0.0",
+  "description": "Node.js Geo locator with mongoose",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon src/server.ts",
+    "start": "node dist/server.js",
+    "build": "tsc"
+  },
+  "author": "Sundeep Charan Ramkumar",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.3.1",
+    "mongoose": "^5.8.3",
+    "node-geocoder": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.6",
+    "@types/express": "^4.17.2",
+    "@types/mongoose": "^5.5.36",
+    "@types/node-geocoder": "^3.24.1",
+    "nodemon": "^2.0.2"
+  }
+}
